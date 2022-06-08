@@ -23,6 +23,7 @@ public class run {
 
 
                 Harsh.add_clubs(AeroMC);
+                AeroMC.is_member(Harsh);
                 // mentors can add themselves to clubs and divs for teaching.
                 
 

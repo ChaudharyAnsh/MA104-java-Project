@@ -18,7 +18,8 @@ public class Mentor extends Student{
                 System.out.println();
                 this.show_Details();
 
-        } 
+        }
+        @Override
         public void show_Details() {
 
                 System.out.println();
@@ -26,6 +27,7 @@ public class Mentor extends Student{
                 System.out.println("Roll   : \t" + this.Roll);
                 System.out.println("Year   : \t" + this.year);
                 System.out.println("Branch : \t" + this.branch);
+                System.out.println("Rating : \t" + this.rating);
                 if(specialization1 != null) System.out.println("Specialization: " + this.specialization1);
                 if(specialization2 != null) System.out.println("Specialization: " + this.specialization2);
                 if(specialization3 != null) System.out.println("Specialization: " + this.specialization3);

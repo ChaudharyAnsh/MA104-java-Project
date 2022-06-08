@@ -45,7 +45,6 @@ abstract class Student implements getDetails{
 
                                 changing_details = false;
                                 System.out.println();
-                                System.out.println("Details changed to:");
                                 sc.close();
                         
                         } else {

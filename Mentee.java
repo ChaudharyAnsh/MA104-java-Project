@@ -13,13 +13,14 @@ public class Mentee extends Student{
                 this.enrollment1 = enrollment1;
 
         } 
-
+        @Override
         public void show_Details() {
 
                 System.out.println("Name   : \t" + this.name);
                 System.out.println("Roll   : \t" + this.Roll);
                 System.out.println("Year   : \t" + this.year);
                 System.out.println("Branch : \t" + this.branch);
+                System.out.println("Learning index : \t" + this.learning_index);
                 if(enrollment1 != null) System.out.println("enrolled in : " + this.enrollment1);
                 if(enrollment2 != null) System.out.println("enrolled in : " + this.enrollment2);
                 if(enrollment3 != null) System.out.println("enrolled in : " + this.enrollment3);
