@@ -3,7 +3,7 @@ Name - Ansh Chaudhary
 Roll No - 21124007
 
 
-<!---------- OUTPUT ----------->
+<---------- OUTPUT ----------->
 Mentor Harsh Sinha added.
 
 
